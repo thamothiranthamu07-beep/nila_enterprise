@@ -1,1 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NILA ENTERPRISE - Product Details</title>
 
+<style>
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family:Arial,sans-serif;
+  background:#f5f7fb;
+  color:#172033;
+}
+
+header{
+  background:#071a3d;
+  color:white;
+  padding:18px 6%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:15px;
+}
+
+.logo{
+  color:#ffd21c;
+  font-size:24px;
+  font-weight:bold;
+}
+
+.home{
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.container{
+  max-width:900px;
+  margin:40px auto;
+  padding:20px;
+}
+
+.product-box{
+  background:white;
+  border-radius:18px;
+  padding:25px;
+  box-shadow:0 5px 20px rgba(0,0,0,.1);
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:30px;
+  align-items:center;
+}
+
+.product-box img{
+  width:100%;
+  height:350px;
+  object-fit:cover;
+  border-radius:15px;
+}
+
+h1{
+  font-size:32px;
+  margin-bottom:15px;
+}
+
+.price{
+  color:#e63946;
+  font-size:28px;
+  font-weight:bold;
+  margin:15px 0;
+}
+
+.quality{
+  color:#16803c;
+  font-weight:bold;
+  margin-bottom:15px;
+}
+
+.details{
+  line-height:1.8;
+  margin-bottom:20px;
+}
+
+.order{
+  display:inline-block;
+  background:#25d366;
+  color:white;
+  text-decoration:none;
+  padding:14px 22px;
+  border-radius:8px;
+  font-weight:bold;
+  margin-right:8px;
+}
+
+.back{
+  display:inline-block;
+  background:#071a3d;
+  color:white;
+  text-decoration:none;
+  padding:14px 22px;
+  border-radius:8px;
+  font-weight:bold;
+}
+
+footer{
+  margin-top:40px;
+  background:#071a3d;
+  color:white;
+  text-align:center;
+  padding:25px;
+}
+
+footer strong{
+  color:#ffd21c;
+}
+
+@media(max-width:700px){
+  .product-box{
+    grid-template-columns:1fr;
+  }
+
+  .product-box img{
+    height:280px;
+  }
+
+  h1{
+    font-size:27px;
+  }
+
+  .order,.back{
+    margin-top:8px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+NILA ENTERPRISE
+</div>
+
+<a class="home" href="index.html">
+🏠 Home
+</a>
+
+</header>
+
+
+<div class="container">
+
+<div class="product-box">
+
+<img
+src="https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?auto=format&fit=crop&w=800&q=80"
+alt="Premium Earbuds">
+
+<div>
+
+<h1>Premium Earbuds</h1>
+
+<div class="quality">
+⭐ Best Quality Product
+</div>
+
+<div class="price">
+₹499
+</div>
+
+<div class="details">
+
+<p>🎧 Premium sound quality</p>
+<p>🔋 Long battery backup</p>
+<p>📱 Wireless Bluetooth connection</p>
+<p>🎁 Perfect for personal use & gifts</p>
+<p>🚚 Tirupathur nearby delivery available</p>
+
+</div>
+
+<a
+class="order"
+href="https://wa.me/919360057366?text=Hello%20NILA%20ENTERPRISE,%20I%20want%20to%20order%20Premium%20Earbuds%20for%20Rs.499">
+📱 Order on WhatsApp
+</a>
+
+<a class="back" href="index.html">
+← Back
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+
+<footer>
+
+<strong>NILA ENTERPRISE</strong>
+
+<br><br>
+
+Quality Products at Best Prices
+
+<br><br>
+
+📍 Tirupathur (TPT)
+
+</footer>
+
+</body>
+</html>
