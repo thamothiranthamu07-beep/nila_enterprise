@@ -1,1 +1,470 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>NILA ENTERPRISE</title>
+
+<style>
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family:Arial,sans-serif;
+  background:#f5f7fb;
+  color:#172033;
+}
+
+header{
+  background:#071a3d;
+  color:white;
+  padding:16px 6%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:15px;
+}
+
+.logo{
+  color:#ffd21c;
+  font-size:25px;
+  font-weight:bold;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  margin:0 8px;
+  font-weight:bold;
+}
+
+.whatsapp{
+  background:#25d366;
+  color:white;
+  padding:10px 16px;
+  border-radius:25px;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.hero{
+  background:linear-gradient(135deg,#071a3d,#123d7a);
+  color:white;
+  padding:70px 7%;
+  text-align:center;
+}
+
+.hero h1{
+  font-size:42px;
+  margin-bottom:15px;
+}
+
+.hero h1 span{
+  color:#ffd21c;
+}
+
+.hero p{
+  font-size:18px;
+  margin-bottom:25px;
+}
+
+.btn{
+  display:inline-block;
+  background:#ffd21c;
+  color:#071a3d;
+  padding:13px 25px;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+section{
+  padding:45px 6%;
+}
+
+.title{
+  text-align:center;
+  margin-bottom:30px;
+}
+
+.title h2{
+  font-size:30px;
+}
+
+.categories,
+.products,
+.offers,
+.features{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:20px;
+}
+
+.card{
+  background:white;
+  border-radius:15px;
+  padding:20px;
+  text-align:center;
+  box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
+
+.card .icon{
+  font-size:45px;
+  margin-bottom:12px;
+}
+
+.card h3{
+  margin-bottom:8px;
+}
+
+.product{
+  overflow:hidden;
+  padding:0 0 20px;
+}
+
+.product img{
+  width:100%;
+  height:180px;
+  object-fit:cover;
+}
+
+.product h3{
+  margin-top:15px;
+}
+
+.price{
+  color:#e63946;
+  font-size:21px;
+  font-weight:bold;
+  margin:10px;
+}
+
+.order{
+  display:inline-block;
+  background:#25d366;
+  color:white;
+  text-decoration:none;
+  padding:10px 18px;
+  border-radius:7px;
+  font-weight:bold;
+}
+
+.offer{
+  background:#071a3d;
+  color:white;
+}
+
+.offer h3{
+  color:#ffd21c;
+  font-size:24px;
+  margin-bottom:10px;
+}
+
+.feature{
+  font-size:18px;
+}
+
+footer{
+  background:#071a3d;
+  color:white;
+  text-align:center;
+  padding:30px 15px;
+}
+
+footer h2{
+  color:#ffd21c;
+  margin-bottom:10px;
+}
+
+footer a{
+  color:#25d366;
+  text-decoration:none;
+}
+
+@media(max-width:700px){
+  header{
+    justify-content:center;
+  }
+
+  nav{
+    text-align:center;
+    line-height:2;
+  }
+
+  .hero h1{
+    font-size:32px;
+  }
+
+  .hero{
+    padding:50px 20px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">NILA ENTERPRISE</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#products">Products</a>
+<a href="#offers">Offers</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<a class="whatsapp"
+href="https://wa.me/919360057366">
+WhatsApp
+</a>
+
+</header>
+
+
+<section class="hero" id="home">
+
+<h1>Welcome to <span>NILA ENTERPRISE</span></h1>
+
+<p>Quality Products • Best Price • Nearby Delivery</p>
+
+<a class="btn" href="#products">
+Shop Now
+</a>
+
+</section>
+
+
+<section>
+
+<div class="title">
+<h2>Our Categories</h2>
+</div>
+
+<div class="categories">
+
+<div class="card">
+<div class="icon">🎧</div>
+<h3>Earbuds</h3>
+<p>Quality audio products</p>
+</div>
+
+<div class="card">
+<div class="icon">🎵</div>
+<h3>Neckband</h3>
+<p>Best quality neckbands</p>
+</div>
+
+<div class="card">
+<div class="icon">⌚</div>
+<h3>Smart Watch</h3>
+<p>Smart & stylish watches</p>
+</div>
+
+<div class="card">
+<div class="icon">🔌</div>
+<h3>Chargers</h3>
+<p>Cables & accessories</p>
+</div>
+
+<div class="card">
+<div class="icon">🎁</div>
+<h3>Gifts</h3>
+<p>Birthday & special gifts</p>
+</div>
+
+<div class="card">
+<div class="icon">🔊</div>
+<h3>Speakers</h3>
+<p>Bluetooth speakers</p>
+</div>
+
+</div>
+</section>
+
+
+<section id="products">
+
+<div class="title">
+<h2>Featured Products</h2>
+<p>Best products from NILA ENTERPRISE</p>
+</div>
+
+<div class="products">
+
+<div class="card product">
+
+<img src="https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?auto=format&fit=crop&w=600&q=80">
+
+<h3>Premium Earbuds</h3>
+
+<div class="price">₹499</div>
+
+<a class="order"
+href="https://wa.me/919360057366?text=I%20want%20to%20order%20Premium%20Earbuds">
+Order on WhatsApp
+</a>
+
+</div>
+
+
+<div class="card product">
+
+<img src="https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=600&q=80">
+
+<h3>Bluetooth Neckband</h3>
+
+<div class="price">₹399</div>
+
+<a class="order"
+href="https://wa.me/919360057366?text=I%20want%20to%20order%20Neckband">
+Order on WhatsApp
+</a>
+
+</div>
+
+
+<div class="card product">
+
+<img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80">
+
+<h3>Smart Watch</h3>
+
+<div class="price">₹699</div>
+
+<a class="order"
+href="https://wa.me/919360057366?text=I%20want%20to%20order%20Smart%20Watch">
+Order on WhatsApp
+</a>
+
+</div>
+
+
+<div class="card product">
+
+<img src="https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=600&q=80">
+
+<h3>Charger</h3>
+
+<div class="price">₹299</div>
+
+<a class="order"
+href="https://wa.me/919360057366?text=I%20want%20to%20order%20Charger">
+Order on WhatsApp
+</a>
+
+</div>
+
+</div>
+</section>
+
+
+<section class="offer" id="offers">
+
+<div class="title">
+<h2>🔥 Special Offers</h2>
+</div>
+
+<div class="offers">
+
+<div class="card">
+<h3>Combo Offer</h3>
+<p>Buy 2 products</p>
+<p>Get 1 Headphone FREE</p>
+<br>
+<strong>Starting ₹799</strong>
+</div>
+
+<div class="card">
+<h3>Sunday Offer</h3>
+<p>Special Sunday deals</p>
+<p>Limited stock available</p>
+</div>
+
+<div class="card">
+<h3>Best Price</h3>
+<p>Quality products</p>
+<p>Affordable prices</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section>
+
+<div class="title">
+<h2>Why NILA ENTERPRISE?</h2>
+</div>
+
+<div class="features">
+
+<div class="card feature">
+🚚<br><br>
+<strong>Nearby Delivery</strong>
+</div>
+
+<div class="card feature">
+💰<br><br>
+<strong>Best Price</strong>
+</div>
+
+<div class="card feature">
+⭐<br><br>
+<strong>Quality Products</strong>
+</div>
+
+<div class="card feature">
+📱<br><br>
+<strong>WhatsApp Order</strong>
+</div>
+
+</div>
+
+</section>
+
+
+<section id="contact">
+
+<div class="title">
+<h2>Contact NILA ENTERPRISE</h2>
+<p>📍 Tirupathur (TPT)</p>
+<p>🚚 Nearby Delivery</p>
+<br>
+
+<a class="whatsapp"
+href="https://wa.me/919360057366">
+📱 WhatsApp: 93600 57366
+</a>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<h2>NILA ENTERPRISE</h2>
+
+<p>Quality Products at Best Prices</p>
+
+<p>📍 Tirupathur (TPT)</p>
+
+<br>
+
+<p>
+© 2026 NILA ENTERPRISE. All Rights Reserved.
+</p>
+
+</footer>
+
+</body>
+</html>
